@@ -5,6 +5,7 @@
     <title>모바일</title>
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body>
     <header id="header">
@@ -24,6 +25,12 @@
         <li><a href="#">버튼</a></li>
       </ul>
     </nav>
+    <script>
+      $("#toggleGnb").hide();
+      $(".toggle").on('click', function(){
+        $("#toggleGnb").slideToggle();
+       })
+    </script>
     <nav id="topGnb">
       <ul>
         <li><a href="#">버튼</a></li>
