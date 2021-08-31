@@ -11,7 +11,7 @@ body {  }
 #header { height: 42px; position: relative; color: #fff;
   background: linear-gradient(to bottom, #810000 80%, #700000 100%); }
 #header h1 { text-align: center;}
-#header a { position: absolute; top: 4px; background: url(../sprites.png) no-repeat; }
+#header a { position: absolute; top: 4px; background: url(sprites.png) no-repeat; }
 #header .btn { width: 62px; height: 32px;
   left: 4px; text-indent: -9999px; }
 #header .toggle { width: 32px; height: 32px;
